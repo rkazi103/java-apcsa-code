@@ -1,0 +1,20 @@
+initialize loop continuation condition
+while (loop-continuation-condition) {
+	// Loop Body
+	Statement(s)
+
+	// Action After Each Iteration
+}	
+
+Sentinel Controlled Loop
+
+Difference between do-while and while: if you want loop to run at least once, use do-while, otherwise use while
+
+for (initialAction; loop-continuation-condition; action-after-each-iteration;) {
+	// Loop Body
+}
+
+for ( ; ; ) {					while (true) {
+		      <=============>		
+}						}
+
