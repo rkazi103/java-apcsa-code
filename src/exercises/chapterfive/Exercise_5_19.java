@@ -1,5 +1,13 @@
 package exercises.chapterfive;
 
+/**
+ * @author <a href="https://github.com/rkazi103">@rkazi103</a>
+ * @see
+ *      <p>
+ *      Prompt: Write a nested for loop that prints out a pyramid that has the
+ *      powers of 2.
+ *      </p>
+ */
 public class Exercise_5_19 {
     public static void main(String[] args) {
         int numberOfLines = 8;
