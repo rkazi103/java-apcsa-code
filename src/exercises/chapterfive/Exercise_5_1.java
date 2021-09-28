@@ -2,6 +2,17 @@ package exercises.chapterfive;
 
 import java.util.Scanner;
 
+/**
+ * @author <a href="https://github.com/rkazi103">@rkazi103</a>
+ * 
+ * @see
+ *      <p>
+ *      Prompt: Write a program that reads an unspecified number of integers,
+ *      determines how many positive and negative values have been read, and
+ *      computes the sum and average of the values read (not including 0). The
+ *      program ends with input 0.
+ *      </p>
+ */
 public class Exercise_5_1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

@@ -1,5 +1,14 @@
 package exercises.chapterfive;
 
+/**
+ * @author <a href="https://github.com/rkazi103">@rkazi103</a>
+ * 
+ * @see
+ *      <p>
+ *      Prompt: Write a program that displays the following two tables side by
+ *      side.
+ *      </p>
+ */
 public class Exercise_5_5 {
     public static void main(String[] args) {
         double kilogramsLeftside, kilogramsRightside, poundsLeftside, poundsRightSide;

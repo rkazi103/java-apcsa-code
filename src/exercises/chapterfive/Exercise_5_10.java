@@ -1,5 +1,15 @@
 package exercises.chapterfive;
 
+/**
+ * @author <a href="https://github.com/rkazi103">@rkazi103</a>
+ * 
+ * @see
+ *      <p>
+ *      Prompt: Write a program that displays all the numbers from 100-1,000,
+ *      ten per line, that are divisible by 5 and 6. Numbers are separated by
+ *      exactly one space.
+ *      </p>
+ */
 public class Exercise_5_10 {
     public static void main(String[] args) {
         int numberCount = 0;
