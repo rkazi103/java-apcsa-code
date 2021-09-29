@@ -9,7 +9,7 @@ package exercises.chapterfive;
  *      side.
  *      </p>
  */
-public class Exercise_5_5 {
+public class Exercise_05_05 {
     public static void main(String[] args) {
         double kilogramsLeftside, kilogramsRightside, poundsLeftside, poundsRightSide;
 

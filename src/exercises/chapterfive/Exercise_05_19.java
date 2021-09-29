@@ -8,7 +8,7 @@ package exercises.chapterfive;
  *      powers of 2.
  *      </p>
  */
-public class Exercise_5_19 {
+public class Exercise_05_19 {
     public static void main(String[] args) {
         int numberOfLines = 8;
 

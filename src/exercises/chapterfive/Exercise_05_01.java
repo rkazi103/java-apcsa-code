@@ -13,7 +13,7 @@ import java.util.Scanner;
  *      program ends with input 0.
  *      </p>
  */
-public class Exercise_5_1 {
+public class Exercise_05_01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int numberOfPositives = 0;

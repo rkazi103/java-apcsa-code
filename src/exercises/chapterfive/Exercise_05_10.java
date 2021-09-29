@@ -10,7 +10,7 @@ package exercises.chapterfive;
  *      exactly one space.
  *      </p>
  */
-public class Exercise_5_10 {
+public class Exercise_05_10 {
     public static void main(String[] args) {
         int numberCount = 0;
 

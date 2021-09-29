@@ -8,7 +8,7 @@ package exercises.chapterfive;
  *      the following summation formula.
  *      </p>
  */
-public class Exercise_5_25 {
+public class Exercise_05_25 {
     public static void main(String[] args) {
         double PI = 1.0;
         for (int i = 2; i <= 100000; i++) {
