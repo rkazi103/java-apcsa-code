@@ -13,7 +13,7 @@ public class Exercise_05_05 {
     public static void main(String[] args) {
         double kilogramsLeftside, kilogramsRightside, poundsLeftside, poundsRightSide;
 
-        System.out.println("Kilograms     Pounds | Pounds   Kilograms");
+        System.out.println("Kilograms\tPounds | Pounds\tKilograms");
 
         for (int i = 1; i <= 200; i += 2) {
             kilogramsLeftside = i;
