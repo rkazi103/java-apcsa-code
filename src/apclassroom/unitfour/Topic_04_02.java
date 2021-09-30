@@ -1,6 +1,6 @@
 package apclassroom.unitfour;
 
-public class Topic_4_2 {
+public class Topic_04_02 {
     public static void main(String[] args) {
         // For loop printing out numbers 1-5
         for (int num = 1; num <= 5; num++) {
