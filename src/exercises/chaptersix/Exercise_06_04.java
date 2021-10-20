@@ -15,7 +15,7 @@ public class Exercise_06_04 {
         int reversedNumber = 0;
         while (number != 0) {
             reversedNumber *= 10; // Add zero to the reversed number number
-            reversedNumber += number % 10; // Remove zero and add actuall digit to reversed number
+            reversedNumber += number % 10; // Remove zero and add actual digit to reversed number
             number /= 10; // Remove digit from original number
         }
 
