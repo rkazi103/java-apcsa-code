@@ -13,9 +13,8 @@ public class Exercise_06_17 {
 
     public static void printMatrix(int numberOfLines) {
         for (int i = 0; i < numberOfLines; i++) {
-            for (int j = 0; j < numberOfLines; j++) {
+            for (int j = 0; j < numberOfLines; j++)
                 System.out.print(Math.random() < 0.5 ? "0 " : "1 ");
-            }
             System.out.println();
         }
     }
