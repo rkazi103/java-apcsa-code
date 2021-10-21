@@ -6,7 +6,7 @@ public class Exercise_06_08 {
     }
 
     public static void printTable() {
-        System.out.println("Celsius\tFahrenheit\t|\tFahrenheit\nCelsius");
+        System.out.printf("%-15s%-15s%-5s%-15s%-15s\n", "Celsius", "Fahrenheit", "|", "Fahrenheit", "Celsius");
 
         int fahrenheitRightSide = 120;
         double fahrenheitLeftSide = 0, celsiusRightSide = 0, celsiusLeftSide = 0;
@@ -15,7 +15,7 @@ public class Exercise_06_08 {
             celsiusLeftSide = (double) i;
             fahrenheitLeftSide = celsiusToFahrenheit(celsiusLeftSide);
             celsiusRightSide = fahrenheitToCelsius(fahrenheitRightSide);
-            System.out.printf("%d\t\t%5.1f\t|\t%d\t%9.2f\n", (int) celsiusLeftSide, fahrenheitLeftSide,
+            System.out.printf("%-15d%-15.3f%-5s%-15d%-15.3f\n", (int) celsiusLeftSide, fahrenheitLeftSide, "|",
                     fahrenheitRightSide, celsiusRightSide);
             fahrenheitRightSide -= 10;
         }
